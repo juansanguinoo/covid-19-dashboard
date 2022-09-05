@@ -1,0 +1,19 @@
+.aside {
+  width: 4rem;
+  height: 100vh;
+
+  border-right: $border;
+
+  &__icon {
+    width: 100%;
+    height: 8rem;
+    border-bottom: $border;
+
+    @include flex;
+
+    & i {
+      font-size: 2rem;
+      color: #fff;
+    }
+  }
+}

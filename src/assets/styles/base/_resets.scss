@@ -1,0 +1,8 @@
+* {
+  @include reset-pm();
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}

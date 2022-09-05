@@ -1,0 +1,18 @@
+@import './assets/styles/abstracts/variables';
+@import './assets/styles/abstracts/mixins';
+@import './assets/styles/base/base';
+@import './assets/styles/base/resets';
+
+@import './assets/styles/components/aside.scss';
+@import './assets/styles/components/header.scss';
+@import './assets/styles/components/main.scss';
+@import './assets/styles/components/mainInput.scss';
+@import './assets/styles/components/mainBar.scss';
+@import './assets/styles/components/mainPieDiagram.scss';
+@import './assets/styles/components/mainTable.scss';
+@import './assets/styles/components/mainDiagrams.scss';
+@import './assets/styles/components/mainCards.scss';
+
+@import './assets/styles/pages/home.scss';
+
+@import './assets/styles/abstracts/mediaqueries.scss';
