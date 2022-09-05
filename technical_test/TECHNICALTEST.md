@@ -26,13 +26,15 @@ The function receives a one-dimensional array, a number of rows and a number of 
 
 ## Exercise 3
 
-**A.** Create an entity relationship diagram to describe the query. e the query. It should include entities, its relati It should include entities, its relationships, onships, primary keys, and data ty  primary keys, and data types.
+#### **A**. Create an entity relationship diagram to describe the query. It should include entities, its relationships, and data types.
 
-**B.** What is the result if we change all relations to LEFT JOIN instead of INNER JOIN?
+![ER_MODEL](https://user-images.githubusercontent.com/100891629/188420858-d9160454-5e73-4a2e-a4e2-4a9474592697.jpeg)
+
+#### **B**. What is the result if we change all relations to LEFT JOIN instead of INNER JOIN?
 
 Changing the inner join to the left join would fetch the data that matches the query with its field and would also fetch all the data from the T_TSERVICE_REQUEST table that doesn't match the query, but it'll get it as NULL fields.
 
-**C.** In your own words, what is the operation performed by the function F_FUNC?
+#### **C**. In your own words, what is the operation performed by the function F_FUNC?
 
 F_FUNC is a function that calculates the difference in business days between two days passed to the function, it subtracts the days of the weekend. In addition, it evaluates if the start or end day corresponds to a day of the weekend to subtract them from the final result
 
@@ -76,5 +78,7 @@ console.log(magicSquare(5));
 #### please go to the directory exercise_4 where you will find the complete answer to the exercise
 
 ## Exercise 5
+
+![ER_MODEL](https://user-images.githubusercontent.com/100891629/188420941-323bd45b-ff09-476d-831a-65d56ff0ddf7.jpeg)
 
 #### please go to the directory exercise_5 where you will find the complete answer to the exercise
